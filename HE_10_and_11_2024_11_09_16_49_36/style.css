@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #87c23c;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Fredoka";
+  font-weight: 450;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  font-family: "Fredoka";
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  padding-top: 5%;
+  padding-left: 0%;
+}
+
+p {
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-style: normal;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+ul {
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  font-weight: 300;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0;
+
+  text-align: center;
+  list-style-type: none;
+}
+
+
+#button-holder {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: auto;
+  justify-content: center;
+}
